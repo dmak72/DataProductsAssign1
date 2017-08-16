@@ -11,7 +11,7 @@ require(leaflet)
 
 ## August 15, 2017
 
-```{r, warning=FALSE}
+```{r, warning=FALSE, echo=FALSE, message=FALSE}
 df <- data.frame(cities = c("Solihull", "Oxford","London"),
                  pop = c(206700,168270,8787892),
                  wiki = c('<b><a href="https://en.wikipedia.org/wiki/Solihull"> Solihull</a></b>', '<b><a href="https://en.wikipedia.org/wiki/Oxford">Oxford</a></b>', '<b><a href="https://en.wikipedia.org/wiki/London">London</a></b>'),
